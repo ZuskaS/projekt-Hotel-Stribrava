@@ -1,1 +1,1 @@
-# projekt-Hotel-Stribrava
+# Projekt Hotel Stříbrava
