@@ -33,7 +33,7 @@ section {
 }
 
 section.dark {
-  background-color: gray;
+  background-color: #131E2A;
   color: white;
 }
 
@@ -101,7 +101,7 @@ img {
   .banner__stripe {
     padding: 1rem 0;
   }
-  
+
   .banner__stripe h1 {
     font-size: 2rem;
   }
@@ -125,11 +125,13 @@ img {
   transition: transform 0.2s;
 }
 
-.card:hover, .card--selected {
+.card:hover,
+.card--selected {
   color: white;
 }
 
-.card:hover img, .card--selected img {
+.card:hover img,
+.card--selected img {
   border: 2px solid white;
 }
 
