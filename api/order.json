@@ -1,0 +1,15 @@
+[
+  {
+    "roomId": 0,
+    "dateFrom": "2025-06-10",
+    "dateTo": "2025-06-12",
+    "persons": 2,
+    "meal": "polopenze",
+    "pet": true,
+    "extraBed": false,
+    "barrierFree": true,
+    "email": "zakaznik@email.cz",
+    "phone": "+420123456789",
+    "totalPrice": 3600
+  }
+]
