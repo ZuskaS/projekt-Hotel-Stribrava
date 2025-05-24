@@ -1,10 +1,9 @@
-
-export const RoomCard = ({image, name, cost}) => {
-    return (
-        <div className="card">
-            <img className="card__image" src={image} />
-            <div className="card__title">{name}</div>
-            <div className="card__body">{`${cost} Kč na osobu`}</div>
-        </div>
-    )
-}
+export const RoomCard = ({ room, onRoomClick }) => {
+  return (
+    <div className="card" onClick={() => onRoomClick(room)}>
+      <img className="card__image" src={room.image} />
+      <div className="card__title">{room.name}</div>
+      <div className="card__body">{`${room.cost} Kč na osobu`}</div>
+    </div>
+  );
+};
