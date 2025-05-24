@@ -1,6 +1,6 @@
 import { RoomCard } from "../RoomCard/RoomCard"
 
-export const RoomOffer = () => {
+export const RoomOffer = ({rooms}) => {
     return (
         <section className="dark">
             <div className="container">
@@ -10,7 +10,7 @@ export const RoomOffer = () => {
                 </p>
                 <div className="cards-row">
                     {rooms.map((room) =>
-                        <RoomCard key={room.id} name={room.name} cost={room.cost} image={image}/>)
+                        <RoomCard key={room.id} name={room.name} cost={room.cost} image={room.image}/>)
                     }
 
 

@@ -2,37 +2,37 @@
   {
     "id": 0,
     "name": "Úkryt",
-    "cost": "450 kč/os",
-    "image": "http://localhost:4001/assets/pokoj01.jpg",
+    "cost": 450,
+    "image": "http://localhost:4000/assets/pokoj01.jpg",
     "describe": "Strohý avšak pohodlný pokoj ideální pro hosty, kteří chtějí maximálně ušetřit a hledají cenově dostupné ubytování bez ztráty základního komfortu. Vhodné pro všechny, kdo chtějí v našem hotelu rychle přečkat nepřízeň počasí a vydat se rychle zase na cestu ať už pěší nebo po řece."
   },
 
   {
     "id": 1,
     "name": "Základ",
-    "cost": "700 kč/os",
-    "image": "http://localhost:4001/assets/pokoj02.jpg",
+    "cost": 700,
+    "image": "http://localhost:4000/assets/pokoj02.jpg",
     "describe": "Jednoduchost a pohodlí za rozumnou cenu. S vkusným designem a mírně retro vybavením poskytuje tento pokoj klidné místo na odpočinek. Z okna vidíte do naší hotelové zahrady a můžete si tak užit klíd hřejivé prostředí našeho rodinného hotelu."
   },
   {
     "id": 2,
     "name": "Klasik",
-    "cost": "1200 kč/os",
-    "image": "http://localhost:4001/assets/pokoj03.jpg",
+    "cost": 1200,
+    "image": "http://localhost:4000/assets/pokoj03.jpg",
     "describe": "Moderní elegance s výhledem na řeku. Náš pokoj Klasik je ideální pro ty, kteří si přejí stylové ubytování. Všechny pokoje mají novou parketovou podlahu a velké okno s výhledem na malebnou řeku a kammenný most."
   },
   {
     "id": 3,
     "name": "Komfort",
-    "cost": "2500 kč/os",
-    "image": "http://localhost:4001/assets/pokoj04.jpg",
+    "cost": 2500,
+    "image": "http://localhost:4000/assets/pokoj04.jpg",
     "describe": "Pro hosty, kteří si chtějí dopřát vyšší úroveň ubytování, je tu pokoj Komfort. S moderním nábytkem a útulným designem nabízí relaxační atmosféru na břehu řeky. Všechny pokoje mají příjemný koberec a velká okna, skrze které můžete pozorovat romantické západy slunce nad řekou."
   },
   {
     "id": 4,
     "name": "Luxus",
-    "cost": "8000 kč/os",
-    "image": "http://localhost:4001/assets/pokoj05.jpg",
+    "cost": 8000,
+    "image": "http://localhost:4000/assets/pokoj05.jpg",
     "describe": "Pro nejnáročnější hosty máme připravený prostorný pokoj s exkluzivním vybavením v prvorepublikovém stylu. Tento pokoj má nejlepší výhled na řeku Stříbravu i na okolní krajinu. Tento pokoj skvělou volbou pro ty, kteří hledají vrcholný komfort a luxusní zážitek během svého pobytu v našem zrekonstruovaném hotelu."
   }
 ]

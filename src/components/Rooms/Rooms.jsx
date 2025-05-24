@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { RoomOffer } from "../RoomOffer/RoomOffer"
 
-export const Room = () => {
+export const Rooms = () => {
     const [room, setRoom] = useState([]);
     useEffect(() => {
         const fetchRoom = async () => {
@@ -14,8 +14,8 @@ export const Room = () => {
 
         return (
             <>
-                <RoomOffer />
-                <Order />
+                <RoomOffer rooms={room}/>
+              {/* <Order />*/}
             </>
         )
     }

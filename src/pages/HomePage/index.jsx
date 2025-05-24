@@ -1,6 +1,7 @@
 import { Header } from '../../components/Header/Header';
 import { Contact } from '../../components/Contact/Contact';
 import './style.css';
+import { Rooms } from '../../components/Rooms/Rooms';
 
 export const HomePage = () => {
   return (
@@ -8,7 +9,9 @@ export const HomePage = () => {
       <header>
         <Header />
       </header>
-      <main></main>
+      <main>
+        <Rooms />
+      </main>
       <footer>
         <Contact />
       </footer>

@@ -4,7 +4,7 @@ export const RoomCard = ({image, name, cost}) => {
         <div className="card">
             <img className="card__image" src={image} />
             <div className="card__title">{name}</div>
-            <div className="card__body">{cost}</div>
+            <div className="card__body">{`${cost} Kč na osobu`}</div>
         </div>
     )
 }
